@@ -1,5 +1,5 @@
 ---
-title: "JAVA"
+title: "Service Mesh"
 layout: archive
 permalink: categories/servicemesh
 author_profile: true
