@@ -4,8 +4,6 @@ title:  "ServiceMesh와 Istio"
 date:   2021-10-17 12:00:00 +0900
 categories: 
     - servicemesh
-toc: true
-toc_sticky: true
 ---
 
 # ServiceMesh란?
@@ -55,8 +53,9 @@ Control Plane은 트래픽을 라우팅하기 위해 프록시를 구성하고 �
     * 인증기관(Certificate Authority. CA)의 역할 수행. 데이터 플레인에서 안전한 mTLS통신을 허용하는 인증서를 생성한다.
 
 # Istio의 특징
+
 |특징|내용|
-|------|---|
+|---|-----|
 |트래픽 관리(Traffic Management)|Istio의 간편한 규칙(Rule) 설정과 트래픽 라우팅 기능을 통해 서비스 간의 트래픽 흐름과 API호출을 제어할 수 있다. 또한 서킷 브레이커(Circuit Breaker), 타임아웃(Timeout), 재시도(Retry) 기능과 같은 서비스 레벨의 속성 구성을 단순화하고, 백분율 기반으로 트래픽을 분할하여 A/B Test, 카나리아 배포, 단계증(Staged) Rollout과 같은 작업을 쉽게 설정할 수 있다.|
 |보안(Security)|Istio의 보안기능을 통해 개발자는 어플리케이션 레벨의 보안에 보다 더 집중할 수 있다. 기본적인 보안 통신 채널을 제공하며, 대규모 서비스 통신의 인증(Authentication), 권한부여(Authorization),암호화(Encryption) 등을 관리한다. Istio를 사용하면 기본적으로 서비스 통신은 보호되기 때문에, 다양한 프로토콜이나 런타임에서 어플리케이션 변경을 거의 하지않고 일관된 정책을 시행할 수 있다. Istio는 플랫폼에 독립적이지만 쿠버네티스 네트워크 정책과 함께 사용하면 파드(pod)간 혹은 서비스(Service)간 통신을 보호하는 기능 등의 다양한 이점이 있다.|
 |관찰 가능성(Observability)|Istio의 강력한 트레이싱(Tracing), 모니터링(Monitoring), 로깅(Logging) 기능으로 서비스 메시여 배포된 서비스들에 대해 더욱 자세히 파악할 수 있다. Istio의 모니터링 기능을 통해 서비스 성능이 업스트림/다운스트림에 어떤 영향을 끼치는지 파악할 수 있다. 또한 맞춤형 대시보드를 통해 모든 서비스 성능에 대한 가시성 확인 및 성능이 다른 프로세스들에 미치는 영향 등을 확인 할 수 있다.|
