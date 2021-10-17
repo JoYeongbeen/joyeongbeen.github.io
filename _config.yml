@@ -20,8 +20,8 @@ title                    : "Yeongbeen's Blog"
 title_separator          : "&#124;"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "JoYeongbeen"
-description              : "MSA와 개발과 관련된 공부를 하는 블로그"
-url                      : "https://joyeongbeen.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "공부하며 기록하는 개발 블로그"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "JoYeongbeen/joyeongbeen.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "조영빈"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "개발하며 기록하는 개발 블로그"
   location         : "Somewhere"
   email            :
   links:
@@ -287,4 +287,5 @@ defaults:
       comments: true
       share: true
       related: true
+      mathjax: true
       sidebar_main: true

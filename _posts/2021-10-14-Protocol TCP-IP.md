@@ -3,8 +3,7 @@ layout: posts
 title:  "프로토콜 TCP/IP"
 date:   2021-10-14 13:38:27 +0900
 categories: 
-    - am
-    - network
+    - cs
 ---
 # 프로토콜(Protocol)
 

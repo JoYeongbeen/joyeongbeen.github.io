@@ -3,7 +3,7 @@ layout: posts
 title:  "Build Tool"
 date:   2021-10-14 13:38:27 +0900
 categories: 
-    - am
+    - java
 ---
 
 Maver과 Gradle 모두 빌드 관리 도구라는데에서 공통점이 있다.
