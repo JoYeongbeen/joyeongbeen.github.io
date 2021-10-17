@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Yeongbeen"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "개발하며 기록하는 개발 블로그"
+  bio              : "공부하며 기록하는 개발 블로그"
   location         : "Somewhere"
   email            :
   links:
